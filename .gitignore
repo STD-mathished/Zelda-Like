@@ -1,0 +1,47 @@
+# --- Godot Engine ---
+# Dossiers d'importation générés automatiquement
+.import/
+export.cfg
+export_presets.cfg
+
+# Fichiers de logs et caches
+.godot/
+mono_crash.*
+*.log
+
+# Fichiers système / temporaires
+*.tmp
+*.temp
+*.bak
+*.swp
+*.db
+
+# --- Plateformes spécifiques ---
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+
+# VSCode
+.vscode/
+.history/
+
+# JetBrains (Rider, CLion, etc.)
+.idea/
+
+# --- Builds exportés ---
+
+/android/
+# On ne garde pas les binaires exportés (apk, exe, etc.)
+*.exe
+*.apk
+*.aab
+*.ipa
+*.zip
+*.tar.gz
